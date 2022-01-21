@@ -1,9 +1,9 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=pakya.xyz
+DOMAIN=pakya.tk
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.pakya.xyz
-WILDCARD=*.${sub}.pakya.xyz
+SUB_DOMAIN=${sub}.pakya.tk
+WILDCARD=*.${sub}.pakya.tk
 CF_ID=alifmelorcoc@gmail.com
 CF_KEY=7fd1a60e2313c83f053c1c066cd301cfd5b51
 set -euo pipefail
